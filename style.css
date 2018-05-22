@@ -47,8 +47,10 @@ body {
 }
 
 .left {
-    flex: 0 0 55%;
+    flex: 0 0 50%;
     align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px;
 }
 
 .left > div > i.fab {
@@ -90,7 +92,6 @@ body {
 .col {
     width: 100%;
     height: auto;
-    padding: 2px;
     margin-bottom: 25px;
 
     display: flex;
